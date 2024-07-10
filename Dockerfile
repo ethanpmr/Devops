@@ -9,8 +9,8 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 # Actualizar el índice de paquetes e instalar apt-utils
 #RUN apt-get update && \
-    apt-get install -y apt-utils wget unzip && \
-    rm -rf /var/lib/apt/lists/* && \
+   # apt-get install -y apt-utils wget unzip && \
+    # rm -rf /var/lib/apt/lists/* && \
 
 # Crear el usuario ivy
     useradd --uid 1000 --user-group --no-create-home ivy && \
