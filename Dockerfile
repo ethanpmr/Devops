@@ -8,7 +8,7 @@ ARG IVY_HOME=/usr/lib/axonivy-engine
 ENV DEBIAN_FRONTEND=noninteractive
 
 # Actualizar el índice de paquetes e instalar apt-utils
-RUN apt-get update && \
+#RUN apt-get update && \
     apt-get install -y apt-utils wget unzip && \
     rm -rf /var/lib/apt/lists/* && \
 
